@@ -1,4 +1,4 @@
-package com.example.TierraMediaSpringBoot.models;
+package com.example.TierraMediaSpringBoot.Enum;
 
 public enum ERoleType
 {

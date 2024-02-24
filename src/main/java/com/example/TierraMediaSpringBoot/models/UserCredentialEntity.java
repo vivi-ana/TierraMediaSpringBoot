@@ -24,7 +24,7 @@ public class UserCredentialEntity {
     @NotBlank(message = "Please complete this field")
     @Size(max = 30, message = "Name is too long")
     @Size(min = 5, message = "Name is too short")
-    private String user;
+    private String username;
 
     @NotNull
     @NotBlank(message = "Please complete this field")
