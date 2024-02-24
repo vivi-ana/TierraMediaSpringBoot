@@ -29,7 +29,7 @@ public class JwtUtils {
                 .signWith(getSignatureKey(), SignatureAlgorithm.HS256)
                 .compact();
     }
-    public boolean isTokeValid(String token) {
+    public boolean isTokenValid(String token) {
         try {
             parseToken(token);
             return true;
