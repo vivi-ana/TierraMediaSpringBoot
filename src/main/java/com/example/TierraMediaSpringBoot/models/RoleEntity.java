@@ -1,5 +1,6 @@
 package com.example.TierraMediaSpringBoot.models;
 
+import com.example.TierraMediaSpringBoot.Enum.ERoleType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
